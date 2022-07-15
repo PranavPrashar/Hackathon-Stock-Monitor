@@ -1,0 +1,49 @@
+.stockcardcomponent{
+    display: flex;
+    flex-direction: column;
+    background-color: #dfe6e9;
+    padding: 0 2rem;
+    width: 25%;
+    margin: 1rem 1rem;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border-radius: 30px;
+    // box-shadow: 12px 9px 15px -3px #636e72;
+    box-shadow: 12px 9px 15px -10px #636e72;
+    color: #2c3e50;
+    
+    p {
+        font-size: 1.2rem;
+        padding: 0;
+        // font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    &__upper{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 15rem;
+    }
+    &__ticker{
+        text-align: left;
+        margin: 0;
+
+    }
+    &__header{
+         font-size: 2rem;
+         color: #2980b9;
+    }
+    &__lower{
+        text-align: left;
+        width: 15rem;
+    }
+
+    &__dayChangePositive, &__dayHigh{
+        color: green;
+    }
+    &__dayChangeNegative, &__dayLow{
+        color: red;
+    }
+
+}

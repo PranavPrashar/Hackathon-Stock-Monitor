@@ -1,0 +1,16 @@
+[
+  { "name": "amazon", "stockTicker": "amzn" },
+  { "name": "meta", "stockTicker": "meta" },
+  { "name": "alphabet", "stockTicker": "googl" },
+  { "name": "visa", "stockTicker": "v" },
+  { "name": "microsoft", "stockTicker": "msft" },
+  { "name": "ford", "stockTicker": "f" },
+  { "name": "apple", "stockTicker": "aapl" },
+  { "name": "microvision", "stockTicker": "mvis" },
+  { "name": "twitter", "stockTicker": "twtr" },
+  { "name": "nvidia", "stockTicker": "nvda" },
+  { "name": "amd", "stockTicker": "amd" },
+  { "name": "nokia", "stockTicker": "nok" },
+  { "name": "nike", "stockTicker": "nke" },
+  { "name": "netlix", "stockTicker": "nflx" }
+]

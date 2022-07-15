@@ -1,0 +1,19 @@
+.form {
+    &__search {
+        margin: 3rem;
+    }
+    &__searchbar {
+        padding: 0.75rem;
+        width: 23vw;
+        font-size: 1.25rem;
+    }
+    &__searchbutton {
+        padding: 0.75rem 2rem;
+        margin: 1rem;
+        background: #212121;
+        color: white;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+}
